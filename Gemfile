@@ -1,4 +1,6 @@
 source 'http://rubygems.org'
+source :gemcutter
+gem 'sinatra', '1.0'
 
 gem 'rails', '3.1.1'
 
