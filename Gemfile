@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
-source :gemcutter
+
+
 gem 'sinatra', '1.0'
 
 gem 'rails', '3.1.1'
@@ -9,6 +10,7 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+gem 'exceptional'
 
 # Gems used only for assets and not required
 # in production environments by default.
