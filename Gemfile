@@ -40,6 +40,10 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  
+  gem "rspec"                                          
+  gem "rspec-rails", '2.0.0.beta.18'
+  gem "rack-test"
 end
 
 group :production do
