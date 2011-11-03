@@ -14,7 +14,9 @@ DemoApp::Application.routes.draw do
   resources :microposts
 
   resources :users
-
+  
+  
+  match '/signup',  :to => 'users#new'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -46,6 +46,12 @@ group :test do
   gem "rack-test"
 end
 
+group :development do
+  
+  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+
+end
+
 group :production do
   gem 'pg'
 end
